@@ -1,0 +1,22 @@
+img {
+    margin-top: 20px;
+    border: 1px solid rgb(8, 211, 123);
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(8, 211, 123);
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+}
